@@ -47,9 +47,14 @@ nav{
  left: 0;
  right: 0;
  z-index: 99;
- background: linear-gradient(60deg, rgb(119, 192, 199) 0%, rgba(157, 232, 195, 0.682) 100%) rgb(113, 168, 153) 50%;
+ background: linear-gradient(60deg, #77c0c7 0%, rgba(157, 232, 195, 0.682) 100%) rgb(113, 168, 153) 50%;
  padding: 6px 32px;
  border-bottom: 3px solid var(--primary);
+
+ position: fixed;
+
+ width: 100%;  /* El menú ocupa todo el ancho de la ventana */
+ top: 0;  /* Ancla el menú en la parte superior */
  
 }
 
@@ -68,6 +73,16 @@ h1{
   z-index: 1;
 
   user-select: none;
+
+
+  position: fixed;
+  top: 0;  /* Ancla el menú en la parte superior */
+  left: 90%;
+  width: 100%;  /* El menú ocupa todo el ancho de la ventana */
+  
+  z-index: 1000;  /* Establece una alta superposición para el menú */
+
+
 
   appearance: none;
   border: none;
@@ -122,6 +137,14 @@ transition: 0.4s;
   flex: 1 1 0%;
   justify-content: flex-end;
   margin: 0 -16px;
+
+  position: fixed;
+
+  width: 100%;  /* El menú ocupa todo el ancho de la ventana */
+  top: 0;  /* Ancla el menú en la parte superior */
+ 
+
+
 }
 
 .menu a {

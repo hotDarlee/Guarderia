@@ -1,0 +1,157 @@
+#rubi .img { 
+    background-image: url('');
+  }
+  #rubi.card:hover .img{
+    background-image: url('');
+  }
+  
+  #job .img { 
+    background-image: url('');
+  }
+  
+  #job.card:hover .img{
+    background-image: url('');
+  }
+  
+  
+  #euro .img {
+    background-image: url('');
+  }
+  
+  #euro.card:hover .img{
+    background-image: url('');
+  }
+  
+  #aquashow .img {
+    background-image: url('')
+  }
+  
+  #aquashow.card:hover .img{
+    background-image: url('')
+  }
+  
+  #pena .img {
+    background-image: url('')
+  }
+  
+  #pena.card:hover .img{
+    background-image: url('')
+  }
+  
+  #praia .img{
+    background-image: url('')
+  }
+  
+  #praia.card:hover .img{
+    background-image: url('')
+  }
+  
+  #gq .img {
+    background-image: url('');
+  }
+  
+  #gq.card:hover .img{
+    background-image: url('')
+  }
+  
+  #somnii .img {
+    background-image: url('');
+  }
+  
+  #somnii.card:hover .img{
+    background-image: url('')
+  }
+  
+  #paintball .img {
+    background-image: url('');
+  }
+  
+  #paintball.card:hover .img{
+    background-image: url('')
+  }
+  
+  #player .img {
+    background-image: url('');
+  }
+  
+  #player.card:hover .img{
+    background-image: url('')
+  }
+  
+  #esquadrao .img {
+    background-image: url('');
+  }
+  
+  #esquadrao.card:hover .img{
+    background-image: url('')
+  }
+  
+  #astronauta .img {
+    background-image: url('');
+  }
+  
+  #astronauta.card:hover .img{
+    background-image: url('')
+  }
+  
+  
+  
+  
+  body{
+    font-family: sans-serif;
+    background-color: #eee;
+  }
+  .content{
+    width: 486px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .card{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  
+    background-color: #fff;
+    display: inline-block;
+    margin: 0px;
+    width: 154px;
+    height: 232px;
+    overflow:hidden;
+    position: relative;
+    border: 1px solid #eec;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .card .img{
+    width:154px;
+    height:184px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: background-image 1s ease-in-out;
+  }
+  
+  h3,h4{ margin: 4px;  }
+  
+  h2{
+    color: #888;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  h4{ 
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .card:hover h4{
+    opacity: 0.75;
+  }
+  
+  

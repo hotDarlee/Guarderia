@@ -48,7 +48,7 @@ nav{
  right: 0;
  z-index: 99;
  background: linear-gradient(60deg, #77c0c7 0%, rgba(157, 232, 195, 0.682) 100%) rgb(113, 168, 153) 50%;
- padding: 6px 32px;
+ padding: 6px 30px;
  border-bottom: 3px solid var(--primary);
 
  position: fixed;
@@ -398,16 +398,18 @@ ul {
 
 .cards {
   position: relative;
+  margin-top: -90px;
 }
 
 .cards__inner {
   display: flex;
   flex-wrap: wrap;
-  gap: 2.5em;
+  gap: 2.9em;
+  margin-top: -100px;
 }
 
 .card {
-  --flow-space: 0.5em;
+  --flow-space: 0em;
   --hsl: var(--hue), var(--saturation), var(--lightness);
   flex: 1 1 14rem;
   padding: 1.5em 2em;
@@ -522,6 +524,23 @@ ul {
   /*background: hsla(var(--hsl), 0.1);*/
   background: #c2ebcf;
 }
+
+
+
+
+.ubicacion{
+  margin-top: -90px;
+  padding: 40px;
+  width: -20px;
+  
+}
+
+.ubicacion img {
+  width: 600px;
+  margin-top: 30px;
+  padding: 20 20;
+}
+
 
 /*footer*/
 footer {

@@ -20,7 +20,7 @@ body{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background:linear-gradient(to right, #000c67, #007be5);
+    background:linear-gradient(to right, rgb(5, 144, 157), rgb(25, 212, 187));
     clip-path: polygon(0 0, 100% 0, 100% 46%, 47% 84%, 0 45%);
     height: 90vh;
     padding:  0 20px;
@@ -39,7 +39,7 @@ body{
 .inicio .logo{
     display: flex;
     align-items: center;
-    color: #00deef;
+    color: #161616;
     font-size: 25px;
 }
 .inicio .logo i{
@@ -55,7 +55,7 @@ body{
     border: 2px solid transparent;
 }
 #inicio header nav a:hover{
-    border-bottom: 2px solid #ff5b00;
+    border-bottom: 2px solid rgb(3, 140, 140);
 }
 .inicio .redes a{
     text-decoration: none;
@@ -64,7 +64,7 @@ body{
     margin: 0 10px;
 }
 .inicio .redes a:hover{
-    color: #ff5b00;
+    color: #00fbff;
 }
 .inicio .fila{
     display: flex;
@@ -93,9 +93,9 @@ body{
     background: none;
     width: fit-content;
     padding: 5px 40px;
-    border: 2px solid #ff5b00;
+    border: 2px solid rgb(0, 145, 255);
     color: #fff;
-    background:linear-gradient(to right, #ff5b00, #ff9900);
+    background:linear-gradient(to right, #71deecaf, #00e1ff);
     transition: .5s;
     cursor: pointer;
 }
@@ -166,10 +166,10 @@ body{
     font-size: 20px;
 }
 .color1{
-    background: linear-gradient(#ff9900, #ff5b00);
+    background: linear-gradient(#00b7ff, #00fffb);
 }
 .color2{
-    background: linear-gradient(#038aee, #0039a9);
+    background: linear-gradient(#038aee, #b1c8f5);
 }
 .color3{
     background: linear-gradient(#04e2ee, #017795);
@@ -184,7 +184,7 @@ body{
 }
 .servicios .card a{
     text-decoration: none;
-    color: #008cff;
+    color: #04131f;
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -192,7 +192,7 @@ body{
 }
 /* seccion HABILIDADES */
 .habilidades{
-    background:linear-gradient(to right, #000c76, #007be5);
+    background:linear-gradient(to right, #b4bbfd, #007be5);
     color: #fff;
     padding: 60px 0;
     position: relative;
@@ -247,17 +247,17 @@ body{
     text-decoration: none;
     display: inline-block;
     margin: 0 20px;
-    color: #007be5;
+    color: #004e4e;
     font-weight: bold;
     padding: 3px 10px;
     border: 3px solid transparent;
 }
 .trabajos nav a:hover{
-    border: 3px solid #ff5b00;
+    border: 3px solid #afe1f1;
 }
 /* Esta clase se agregrá dinámicamente cuando haya seleccionada una opción */
 .borde{
-    border: 3px solid #ff5b00 !important;  
+    border: 3px solid rgb(68, 149, 158) !important;  
 }
 .trabajos .galeria .item img{
     width: 100%;
@@ -292,7 +292,7 @@ body{
     margin-bottom: 20px;
 }
 .trabajos .galeria .item .info span{
-    color: #8d8d8d;
+    color: #cdc4c4;
     display: inline-block;
     border: 2px solid #8d8d8d;
     margin: 0 3px;
@@ -312,10 +312,10 @@ body{
 /* SECCIÓN C O N T A C T O */
 .contacto{
     background:
-        linear-gradient(rgba(0,12,103,1), rgba(0,12,103,.8)),
+        linear-gradient(rgb(0, 77, 69) rgba(11, 45, 44, 0.8)),
         url(img/foto-contacto.png);
         background-size: cover;
-        color: #fff;
+        color: #100d0d;
         margin-top: 100px;
         padding: 80px 20px;
 }
@@ -335,34 +335,34 @@ body{
 }
 .contacto .contenedor-contacto .info{
     margin-bottom: 30px;
-    border-left: 3px solid #8d8d8d;
+    border-left: 3px solid rgb(83, 108, 134);
     padding-left: 8px;
 }
 .contacto .contenedor-contacto .info p{
-    color: #8d8d8d;
+    color: #4a4a4a;
 }
 .contacto input, .contacto textarea{
     width: 100%;
     border: none;
     background-color: transparent;
     padding: 10px;
-    border: 1px solid #8d8d8d ;
+    border: 1px solid #826363 ;
     margin-bottom: 20px;
     outline: none;
-    color: #ff5b00;
+    color: #5acdfb;
 }
 .contacto .btn{
     background-color: none;
     padding: 5px 40px;
     border: 2px solid;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
-    background: linear-gradient(to right, #ff5b00, #ff9900);
+    background: linear-gradient(to right, #8feade, rgb(155, 202, 223));
 }
 
 footer{
-    background-color: #000;
-    color: #fff;
+    background-color:#22565b ;   
+    color: #f1ecec;
     padding: 7px 0;
     font-size: 14px;
     text-align: center;

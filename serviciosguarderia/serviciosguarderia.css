@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-        background-color: #f9f6f2;
+        background-color: #a9d4d4;
 }
 .card-img-top{
     border-radius: 40px;
@@ -39,3 +39,7 @@ h1{
    
 }
 
+footer{
+    height: 170px;
+    background: #86beaa;
+}
